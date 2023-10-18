@@ -1,9 +1,9 @@
 import java.util.*;
 class Main {
   public static void main(String[] args) {
-     System.out.println("******************** DUOTECH EMAIL MANAGEMENT APPLICATION ********************");
+     System.out.println("******************** DUO-TECH EMAIL MANAGEMENT APPLICATION ********************");
      System.out.println("------------------------------------------------------------------------------");
-
+//git practice change comment only
     // Implement the EMA application logic here
     int emailsCreated = 0;
     int numOfEmailsRequested;
@@ -20,7 +20,7 @@ class Main {
 	    System.out.println("What is your first name: ");
 	    String firstName = input.next();
 	    input.nextLine();
-	    System.out.println("What is your last name:");
+	    System.out.println("What is your last name: ");
 	    String lastName = input.next();
       input.nextLine();
 	    for(;;){
